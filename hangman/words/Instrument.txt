@@ -1,0 +1,12 @@
+flute
+A wind instrument made from a tube with holes along it that are stopped by the fingers or keys, held vertically or horizontally so that the player's breath strikes a narrow edge.
+guitar
+A stringed musical instrument, with a fretted fingerboard, typically incurved sides, and six or twelve strings, played by plucking or strumming with the fingers or a plectrum.
+xylophone
+a musical instrument played by striking a row of wooden bars of graduated length with one or more small wooden or plastic mallets.
+trumpet
+A brass musical instrument with a flared bell and a bright, penetrating tone. The modern instrument has the tubing looped to form a straight-sided coil, with three valves.
+violin
+A stringed musical instrument of treble pitch, played with a horsehair bow.
+saxophone
+A member of a family of metal wind instruments with a single-reed mouthpiece, used especially in jazz and dance music.

@@ -1,0 +1,13 @@
+cat
+A small domesticated carnivorous mammal with soft fur, a short snout, and retractable claws.
+dog
+A slender, muscular mammal with four long legs and a bushy tail.
+monkey
+A small to medium-sized primate that typically has a long tail, most kinds of which live in trees in tropical countries.
+elephant
+A heavy plant-eating mammal with a prehensile trunk, long curved ivory tusks, and large ears, native to Africa and southern Asia. It is the largest living land animal.
+komododragon
+A heavily built monitor lizard that captures large prey such as pigs by ambush.
+ostrich
+A flightless swift-running African bird with a long neck, long legs, and two toes on each foot. It is the largest living bird.
+
