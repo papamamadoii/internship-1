@@ -36,7 +36,7 @@ public class HangmanView {
 	}
 
 	/**
-	 * Main part of the game. Selecting the category and keep guessing.
+	 * The gameplay part. Selecting the category and keep guessing.
 	 */
 	public void startGame() {
 		int choice = selectCategory();
@@ -56,6 +56,9 @@ public class HangmanView {
 		}
 	}
 
+	/**
+	 * Start a new game.
+	 */
 	public void newGame() {
 		controller.handleNewGame();
 		startGame();

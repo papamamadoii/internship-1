@@ -1,7 +1,7 @@
 package model;
 
 /**
- * A class that represents a single in hangman game which consists of the word
+ * A class that represents a single word in hangman game which consists of the word
  * and its hint.
  * 
  * @author Piyawat Setthitikun
