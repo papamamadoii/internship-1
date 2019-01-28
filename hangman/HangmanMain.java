@@ -1,8 +1,8 @@
 import view.HangmanView;
 
-public class Main {
+public class HangmanMain {
 	public static void main(String[] args) {
 		HangmanView hv = new HangmanView();
-		hv.playGame();
+		hv.startGame();
 	}
 }

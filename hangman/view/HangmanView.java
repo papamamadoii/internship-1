@@ -31,6 +31,9 @@ public class HangmanView {
 		return controller.handleSelectCategory();
 	}
 
+	/**
+	 * View method for taking guess which is handle by the controller.
+	 */
 	public void takeGuess() {
 		controller.handleTakeGuess();
 	}
@@ -38,7 +41,7 @@ public class HangmanView {
 	/**
 	 * The gameplay part. Selecting the category and keep guessing.
 	 */
-	public void startGame() {
+	public void playGame() {
 		int choice = selectCategory();
 		if (choice == 3) {
 			System.out.println("Bye!");
@@ -53,6 +56,7 @@ public class HangmanView {
 			System.out.println("Hooray! You've completed the word :D");
 		} else {
 			System.out.println("You lose :(");
+			System.out.printf("The answer is %s.\n", hangman.getWord().getWord());
 		}
 	}
 
@@ -61,23 +65,36 @@ public class HangmanView {
 	 */
 	public void newGame() {
 		controller.handleNewGame();
-		startGame();
+		playGame();
 	}
 
 	/**
-	 * Body of the whole program. Choose whether to continue or start a new game.
+	 * Pause the game after the game is complete. Press 'n' to continue and other
+	 * key to exit.
+	 * 
+	 * @return true if stop, false if continue
 	 */
-	public void playGame() {
+	public boolean pauseGame() {
+		boolean stop = false;
+		System.out.println("Press 'n' for new game or other key to exit.");
+		Scanner sc = new Scanner(System.in);
+		String input = sc.next();
+		if (!input.equals("n")) {
+			stop = true;
+		}
+		return stop;
+	}
+
+	/**
+	 * Body of the whole program. Choose whether to start a new game or exit.
+	 */
+	public void startGame() {
 		boolean stop = false;
 		while (!stop) {
 			newGame();
-			System.out.println("Press 'n' for new game or other key to exit.");
-			Scanner sc = new Scanner(System.in);
-			String input = sc.next();
-			if (!input.equals("n")) {
-				stop = true;
-			}
+			stop = pauseGame();
 		}
+		System.out.println("Bye!");
 	}
 
 }
