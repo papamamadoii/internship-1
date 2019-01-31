@@ -1,10 +1,8 @@
 from xml.etree import cElementTree as ElementTree
-from singleton_decorator import singleton
 
-@singleton
 class xml_to_dict():
     '''
-    A singleton class for converting xml file into a json file.
+    A utility class for converting xml file into a json file.
     '''
     def parse(self, tree):
         '''

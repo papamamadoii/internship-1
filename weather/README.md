@@ -14,26 +14,6 @@ git clone https://github.com/bankkeez/internship.git
 
 * python 3.5 or above
 
-## Installing
-
-After finish cloning, go into the weather folder.
-
-```
-cd internship/weather
-```
-
-Install requirements. (If you have only one version of python on yor machine then you can simply enter this command.)
-
-```
-pip install requirements.txt
-```
-
-In case for python 2.0 above and 3.0 above, use this command.
-
-```
-pip3 install requirements.txt
-```
-
 ## Running the program
 
 This command runs the main file.
