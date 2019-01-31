@@ -1,10 +1,10 @@
-package model;
+package src.model;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import util.TextReader;
+import src.util.TextReader;
 
 /**
  * A singleton object represents the hangman game. Containing methods for the

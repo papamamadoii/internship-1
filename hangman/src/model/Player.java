@@ -1,4 +1,4 @@
-package model;
+package src.model;
 
 /**
  * A singleton represents a singleplayer in hangman game. Consist such as

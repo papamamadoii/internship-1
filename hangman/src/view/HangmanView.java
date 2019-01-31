@@ -1,11 +1,9 @@
-package view;
+package src.view;
 
-import java.util.List;
 import java.util.Scanner;
 
-import controller.HangmanController;
-import model.Hangman;
-import model.Player;
+import src.controller.HangmanController;
+import src.model.Hangman;
 
 /**
  * The view of the hangman game.

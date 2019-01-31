@@ -1,10 +1,10 @@
-package controller;
+package src.controller;
 
 import java.util.List;
 import java.util.Scanner;
 
-import model.Hangman;
-import model.Player;
+import src.model.Hangman;
+import src.model.Player;
 
 /**
  * Controller class for the hangman game.

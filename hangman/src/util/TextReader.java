@@ -1,4 +1,4 @@
-package util;
+package src.util;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -38,7 +38,7 @@ public class TextReader {
 	 * @param filename
 	 */
 	public List<String> readTextFile(String filename) {
-		File file = new File("hangman/words/" + filename);
+		File file = new File("hangman/src/words/" + filename);
 		FileReader fl = null;
 		try {
 			fl = new FileReader(file);

@@ -1,4 +1,4 @@
-package model;
+package src.model;
 
 /**
  * A class that represents a single word in hangman game which consists of the word

@@ -1,6 +1,6 @@
-import view.HangmanView;
+import src.view.HangmanView;
 
-public class HangmanMain {
+public class Main {
 	public static void main(String[] args) {
 		HangmanView hv = new HangmanView();
 		hv.startGame();
